@@ -1,5 +1,13 @@
 .container {
-  padding: 0 2rem;
+  flex: 1;
+  background-color: #121015;
+  padding: 30 70 30 70;
+  
+}
+
+.input {
+  text-decoration-color: aliceblue;  
+
 }
 
 .main {

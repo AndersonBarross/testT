@@ -1,0 +1,106 @@
+.main {
+    width: 100%;
+    height: 400px;
+  }
+
+.grid {
+	display: grid;
+    grid-template-columns: auto auto;
+	grid-template-rows: auto;
+    grid-template-areas:
+    "inputTime inputTime "
+    "origin11_16 origin11_17 "
+    "origin18_11 origin18_17 "
+    "showTablePrices showTablePrices"
+    ;
+    background-color: #01b6b1;
+}
+
+.inputTime{
+    grid-area: inputTime;
+    color: yellow;
+    display: flexbox;
+    flex-direction: row;
+    background-image: url("../../components/src/assets/promocao.png");
+    image-rendering: 100%;
+    opacity: 100%;
+    padding: 50px;
+}
+
+.inputButton {
+    grid-area: inputButton;
+    width: 100%;
+    height: 100%;
+    image-rendering: 30%;
+    background-size: 100%;
+    padding: 50px;
+}
+
+.origin11_16 {
+    grid-area: 11_16;
+    background: rgb(74, 59, 59);
+    margin: 20px;
+    background-color: rgb(74, 59, 59);
+    padding: 2rem;
+}
+
+.origin11_17 {
+    grid-area: 11_17;
+    margin: 20px;
+    background-color: rgb(74, 59, 59);
+    padding: 2rem;
+}
+
+.origin18_11 {
+    grid-area: 18_11;
+    margin: 20px;
+    background-color: rgb(74, 59, 59);
+    padding: 2rem;
+}
+
+.origin18_17 {
+    grid-area: 18_17;
+    margin: 20px;
+    background-color: rgb(74, 59, 59);
+    padding: 2rem;
+}
+.showTablePrices {
+   grid-area: showTablePrices;
+   margin: 20px 350px;
+   background-color: rgb(74, 59, 59);
+   padding: 2rem;
+   color:white;
+   align-items: center;
+}
+
+.showTablePrices_origin_dest {
+display: flexbox;
+flex-direction: column;
+align-items: center;
+}
+
+.showTablePrices_origin_dest_RP{
+display: flexbox;
+flex-direction: column;
+align-items: center;
+color: gray;
+}
+
+
+
+.button {
+    margin: -40px 50px 60px;
+}
+
+.phrase {
+    color: orangered;
+    text-size-adjust: 10px;
+    text-decoration-style: dashed;
+}
+
+.h3 {
+    color: white;
+    text-size-adjust: 10px;
+    text-decoration-style: dashed;
+}
+
